@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Form Container */
+form {
+    background: #fff;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Form Title */
+h2 {
+    text-align: center;
+    color: #5a67d8;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    padding: 10px;
+    background-color: #5a67d8;
+    color: #fff;
+    font-size: 18px;
+}
+
+td {
+    padding: 10px;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Button Styling */
+input[type="submit"],
+input[type="reset"] {
+    width: 58%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #5a67d8;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #434190;
+}
+
+/* Radio Button Styling */
+input[type="radio"] {
+    margin-left: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+    }
+
+    th, td {
+        display: block;
+        text-align: left;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    input[type="radio"] {
+        margin-left: 0;
+    }
+}
+
+.error-msg{
+    color: red;
+    font-family: "Roboto";
+    font-size: 12px;
+}
